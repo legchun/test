@@ -1,4 +1,40 @@
-h1{
-	color: red;
+.mm div{
+		padding: 0;
+		margin: 0px;
+	}
+	.mm li{
+	float: left;
+	list-style-type: none;
+	display: block;
+	width: 100px;
+	height: 30px;
+	border: solid red 1px;
+	background:yellow;
+}
+
+.mm li ul{
+	display: none;
+}
+
+.mm li:hover ul{
+display: block;
+}
+
+.mm li:hover{
 	background: pink;
 }
+
+.mm a{
+	display: block;
+	height:30px;
+	text-align: center;
+	text-decoration: none; 
+}
+
+.mm li ul{
+	position: relative;
+	
+	top: 0px;
+	margin-left: -41px;
+}
+
